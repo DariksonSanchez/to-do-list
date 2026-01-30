@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <h1>Lista de tareas</h1>
+
+    <form action="#" id="todoForm">
+        <input type="text" id="taskInput" placeholder="Escribe tu tarea aquí" autofocus>
+        <input type="submit" value="+" id="addbtn">
+    </form>
+
+    <div id="list" class="list-container">
+        </div>
+
+    <div id="stats" class="list-container">
+        <p>
+            Tareas Pendientes: <span id="pendingCount">0</span> | 
+            Completadas: <span id="completedCount">0</span>
+        </p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
